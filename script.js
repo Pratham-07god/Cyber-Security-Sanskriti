@@ -158,17 +158,30 @@ document.addEventListener("DOMContentLoaded", () => {
         <div id="quiz-box"></div>
       </div>
     `,
-    videos: `
-      <h2>Cyber Awareness Videos</h2>
-      <div class="video-grid">
-        <div class="video-item">
-          <iframe src="https://youtu.be/shQEXpUwaIY/embed" title="Cyber Safety Tips" allowfullscreen></iframe>
-        </div>
-        <div class="video-item">
-          <iframe src="https://www.youtube.com/embed/yE4xSUSYyew" title="Phishing Awareness" allowfullscreen></iframe>
-        </div>
-      </div>
-    `
+ videos: `
+  <h2>Cyber Awareness Videos</h2>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe 
+        src="https://www.youtube.com/embed/shQEXpUwaIY"
+        title="Cyber Safety Tips"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="video-item">
+      <iframe 
+        src="https://www.youtube.com/embed/yE4xSUSYyew"
+        title="Phishing Awareness"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+`
+
   };
 
   // default content on load
@@ -353,4 +366,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadQuestion();
   }
 });
+
 
