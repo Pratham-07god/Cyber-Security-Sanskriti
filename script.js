@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       <div class="container">
         <div class="card mb-3 p-3">
-          <h5>🟦 Step 1: Identify the Source</h5>
+          <h5>1️⃣ Identify the Source</h5>
           <p>Is the message from a trusted person or organization?</p>
           <p><strong>If YES →</strong> Go to Step 2</p>
           <p><strong>If NO →</strong> Treat it as suspicious.</p>
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="text-center mb-2"><h2>⬇️</h2></div>
 
         <div class="card mb-3 p-3">
-          <h5>🟩 Step 2: Check for Red Flags</h5>
+          <h5>2️⃣ Check for Red Flags</h5>
           <ul>
             <li>Spelling mistakes</li>
             <li>Strange links</li>
@@ -128,14 +128,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="text-center mb-2"><h2>⬇️</h2></div>
 
         <div class="card mb-3 p-3">
-          <h5>🟧 Step 3: Verify</h5>
+          <h5>3️⃣ Verify</h5>
           <p>Contact the sender using an official number or website.</p>
         </div>
 
         <div class="text-center mb-2"><h2>⬇️</h2></div>
 
         <div class="card mb-3 p-3">
-          <h5>🟥 Step 4: Take Action</h5>
+          <h5>4️⃣ Take Action</h5>
           <ul>
             <li>Report suspicious messages</li>
             <li>Block unknown senders</li>
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <h2>Cyber Awareness Videos</h2>
       <div class="video-grid">
         <div class="video-item">
-          <iframe src="https://www.youtube.com/embed/2s9vZL2F0s0" title="Cyber Safety Tips" allowfullscreen></iframe>
+          <iframe src="https://youtu.be/shQEXpUwaIY/embed" title="Cyber Safety Tips" allowfullscreen></iframe>
         </div>
         <div class="video-item">
           <iframe src="https://www.youtube.com/embed/yE4xSUSYyew" title="Phishing Awareness" allowfullscreen></iframe>
@@ -353,3 +353,4 @@ document.addEventListener("DOMContentLoaded", () => {
     loadQuestion();
   }
 });
+
