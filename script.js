@@ -62,11 +62,95 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
     digest: `
       <h2>Daily Digest</h2>
-      <p>Read the latest cybersecurity news, reports, and expert insights every day.</p>
+      <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+        <div class="col">
+          <div class="card tip-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🚨 Scam of the Day: Fake Delivery</h5>
+              <p class="card-text">“Your package is waiting!” – If you didn’t order anything, the only thing waiting is a cyber trap. Don’t click unknown links.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card tip-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🔐 Password Pizza Rule</h5>
+              <p class="card-text">A strong password = lots of toppings: symbols, numbers, uppercase & lowercase letters. Thin (short) = weak!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card tip-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🧠 Think Before You Click</h5>
+              <p class="card-text">If a message feels urgent or emotional, pause. Hackers use emotions to trick you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card tip-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">📱 Update Reminder</h5>
+              <p class="card-text">Outdated apps = unlocked doors. Updates fix holes before hackers find them!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     `,
     manual: `
       <h2>Citizen Manual</h2>
-      <p>A simple guide for digital citizens — privacy protection, cyber ethics, and safe online behavior.</p>
+      <p class="mb-3">Follow this simple flow to stay safe online:</p>
+
+      <div class="container">
+        <div class="card mb-3 p-3">
+          <h5>🟦 Step 1: Identify the Source</h5>
+          <p>Is the message from a trusted person or organization?</p>
+          <p><strong>If YES →</strong> Go to Step 2</p>
+          <p><strong>If NO →</strong> Treat it as suspicious.</p>
+        </div>
+
+        <div class="text-center mb-2"><h2>⬇️</h2></div>
+
+        <div class="card mb-3 p-3">
+          <h5>🟩 Step 2: Check for Red Flags</h5>
+          <ul>
+            <li>Spelling mistakes</li>
+            <li>Strange links</li>
+            <li>Too good to be true offers</li>
+            <li>Urgent messages</li>
+          </ul>
+          <p><strong>If ANY appear → STOP & delete.</strong></p>
+        </div>
+
+        <div class="text-center mb-2"><h2>⬇️</h2></div>
+
+        <div class="card mb-3 p-3">
+          <h5>🟧 Step 3: Verify</h5>
+          <p>Contact the sender using an official number or website.</p>
+        </div>
+
+        <div class="text-center mb-2"><h2>⬇️</h2></div>
+
+        <div class="card mb-3 p-3">
+          <h5>🟥 Step 4: Take Action</h5>
+          <ul>
+            <li>Report suspicious messages</li>
+            <li>Block unknown senders</li>
+            <li>Change compromised passwords</li>
+            <li>Enable 2FA</li>
+          </ul>
+        </div>
+
+        <div class="text-center mb-2"><h2>⬇️</h2></div>
+
+        <div class="card mb-3 p-3 bg-light">
+          <h5>🏁 Final Step: Stay Updated</h5>
+          <p>Awareness is your strongest defense. Check cyber alerts regularly!</p>
+        </div>
+      </div>
     `,
     quiz: `
       <h2>Cyber Safety Quiz</h2>
@@ -86,6 +170,9 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `
   };
+
+  // default content on load
+  mainCard.innerHTML = sections.safety;
 
   // Sidebar navigation handler
   links.forEach(link => {
