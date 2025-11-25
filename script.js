@@ -58,7 +58,23 @@ document.addEventListener("DOMContentLoaded", () => {
 `,
     awareness: `
       <h2>Cyber Awareness</h2>
-      <p>Cyber awareness is the practice of understanding and recognizing online threats to protect personal and organizational data. It empowers individuals to make smart decisions when using technology, helping prevent attacks like phishing, malware, and identity theft. By adopting secure habits—such as using strong passwords, enabling multi-factor authentication, and staying alert to suspicious activity—we can all contribute to a safer digital environment.</p>
+      <p>Cyber awareness means knowing how to use technology smartly and safely. It is not just for IT experts—every student, parent, and citizen needs it.
+
+In today’s world, we share photos, payments, homework, and even official documents online. At the same time, there are people trying to steal passwords, spread fake news, hack accounts, or cheat others through online frauds. Cyber awareness helps us recognise these dangers before they harm us.
+
+By being cyber aware, we learn to:
+
+Think twice before clicking on links or downloading files.
+
+Protect our personal information like phone number, address, and Aadhaar details.
+
+Use strong passwords and two-factor authentication for our accounts.
+
+Identify scams such as phishing emails, fake job offers, and UPI frauds.
+
+Behave responsibly online, avoiding cyberbullying and respecting others’ privacy.
+
+Cyber awareness is not a one-time lesson; it is a daily habit. When we stay updated, follow safe practices, and help others around us, we create a safer digital environment for our school, our families, and our country.</p>
     `,
     digest: `
       <h2>Daily Digest</h2>
@@ -366,6 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loadQuestion();
   }
 });
+
 
 
 
