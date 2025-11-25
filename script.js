@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 `,
     awareness: `
       <h2>Cyber Awareness</h2>
-      <p>Cyber awareness means knowing how to use technology smartly and safely. It is not just for IT experts—every student, parent, and citizen needs it.
+      <p>"Cyber awareness means knowing how to use technology smartly and safely. It is not just for IT experts—every student, parent, and citizen needs it.
 
 In today’s world, we share photos, payments, homework, and even official documents online. At the same time, there are people trying to steal passwords, spread fake news, hack accounts, or cheat others through online frauds. Cyber awareness helps us recognise these dangers before they harm us.
 
@@ -74,7 +74,7 @@ Identify scams such as phishing emails, fake job offers, and UPI frauds.
 
 Behave responsibly online, avoiding cyberbullying and respecting others’ privacy.
 
-Cyber awareness is not a one-time lesson; it is a daily habit. When we stay updated, follow safe practices, and help others around us, we create a safer digital environment for our school, our families, and our country.</p>
+Cyber awareness is not a one-time lesson; it is a daily habit. When we stay updated, follow safe practices, and help others around us, we create a safer digital environment for our school, our families, and our country".</p>
     `,
     digest: `
       <h2>Daily Digest</h2>
@@ -382,6 +382,7 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
     loadQuestion();
   }
 });
+
 
 
 
