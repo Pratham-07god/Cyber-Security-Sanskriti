@@ -90,7 +90,7 @@ body {
   width: 100%;
   margin-top: 40px;
   box-shadow: 0 4px 30px rgba(0,0,0,0);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .tip-card {
@@ -224,3 +224,4 @@ h2 {
     padding: 12px;
   }
 }
+
