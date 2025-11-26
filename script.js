@@ -10,47 +10,72 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Use Strong Passwords</h5>
-          <p class="card-text">Create unique, complex passwords and avoid using the same one for multiple accounts.</p>
+          <p class="card-text">
+            Create long, unique passwords with a mix of letters, numbers, and symbols. 
+            Never reuse the same password on banking, social media, and email accounts.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="col">
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Enable Two-Factor Authentication</h5>
-          <p class="card-text">Add an extra layer of protection to your accounts with 2FA wherever possible.</p>
+          <p class="card-text">
+            Turn on 2FA for email, social media, and banking apps so even if someone 
+            knows your password, they still cannot log in without the OTP or approval.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="col">
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Avoid Phishing Scams</h5>
-          <p class="card-text">Never click suspicious links or share personal details via email or messages.</p>
+          <p class="card-text">
+            Do not trust links asking for OTP, ATM PIN, or card details. 
+            Check the sender, spelling of the website, and when in doubt, type the 
+            official website address yourself instead of clicking links.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="col">
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Update Regularly</h5>
-          <p class="card-text">Keep your software, apps, and devices updated to patch security vulnerabilities.</p>
+          <p class="card-text">
+            Keep your phone, laptop, browsers, and apps updated. 
+            Updates fix security bugs that attackers try to abuse.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="col">
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Use Secure Wi-Fi</h5>
-          <p class="card-text">Avoid public Wi-Fi for sensitive transactions. Use VPNs for secure connections.</p>
+          <p class="card-text">
+            Avoid using public Wi-Fi for UPI, banking, or passwords. 
+            If you must use it, connect through a trusted VPN and log out after use.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="col">
       <div class="card tip-card h-100">
         <div class="card-body">
           <h5 class="card-title">Backup Your Data</h5>
-          <p class="card-text">Regularly back up important data to prevent loss from attacks or hardware failure.</p>
+          <p class="card-text">
+            Take regular backups of important documents, photos, and school work to 
+            cloud storage or an external drive so you don’t lose everything after 
+            a hack, virus, or device damage.
+          </p>
         </div>
       </div>
     </div>
@@ -58,23 +83,39 @@ document.addEventListener("DOMContentLoaded", () => {
 `,
     awareness: `
       <h2>Cyber Awareness</h2>
-      <p>"Cyber awareness means knowing how to use technology smartly and safely. It is not just for IT experts—every student, parent, and citizen needs it.
+      <p>
+        Cyber awareness means understanding how to use technology <strong>smartly and safely</strong>. 
+        It is not only for IT experts – every student, parent, teacher, and citizen needs it.
+      </p>
+      <p>
+        We share photos, homework, payments, and personal details online every day. 
+        At the same time, cyber criminals try to steal passwords, spread fake news, 
+        hack accounts, and cheat people with online frauds. Cyber awareness helps us 
+        recognise these dangers <strong>before</strong> they harm us.
+      </p>
 
-In today’s world, we share photos, payments, homework, and even official documents online. At the same time, there are people trying to steal passwords, spread fake news, hack accounts, or cheat others through online frauds. Cyber awareness helps us recognise these dangers before they harm us.
+      <h4 class="mt-4">What Does Being Cyber Aware Mean?</h4>
+      <ul>
+        <li>Thinking twice before clicking on links or downloading unknown files.</li>
+        <li>Protecting personal information like phone number, address, Aadhaar, and card details.</li>
+        <li>Using strong passwords and two-factor authentication on important accounts.</li>
+        <li>Identifying scams such as phishing emails, fake customer care, and UPI frauds.</li>
+        <li>Behaving responsibly online – no cyberbullying, trolling, or sharing others’ private data.</li>
+      </ul>
 
-By being cyber aware, we learn to:
+      <h4 class="mt-4">Why Is Cyber Awareness Important?</h4>
+      <ul>
+        <li>🛡️ Protects your <strong>money</strong> and <strong>digital identity</strong>.</li>
+        <li>😊 Keeps your <strong>online reputation</strong> clean and respectful.</li>
+        <li>👨‍👩‍👧 Helps your family and friends stay safe in the digital world.</li>
+        <li>🇮🇳 Supports a safer, more responsible <strong>Digital India</strong>.</li>
+      </ul>
 
-Think twice before clicking on links or downloading files.
-
-Protect our personal information like phone number, address, and Aadhaar details.
-
-Use strong passwords and two-factor authentication for our accounts.
-
-Identify scams such as phishing emails, fake job offers, and UPI frauds.
-
-Behave responsibly online, avoiding cyberbullying and respecting others’ privacy.
-
-Cyber awareness is not a one-time lesson; it is a daily habit. When we stay updated, follow safe practices, and help others around us, we create a safer digital environment for our school, our families, and our country".</p>
+      <p class="mt-3">
+        Cyber awareness is not a one-time lesson; it is a <strong>daily habit</strong>. 
+        When we stay updated, follow safe practices, and guide others, we all contribute to a 
+        safer digital environment for our school, community, and country.
+      </p>
     `,
     digest: `
       <h2>Daily Digest</h2>
@@ -83,7 +124,10 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
           <div class="card tip-card h-100">
             <div class="card-body">
               <h5 class="card-title">🚨 Scam of the Day: Fake Delivery</h5>
-              <p class="card-text">“Your package is waiting!” – If you didn’t order anything, the only thing waiting is a cyber trap. Don’t click unknown links.</p>
+              <p class="card-text">
+                “Your package is waiting!” – If you didn’t order anything, the only thing 
+                waiting is a cyber trap. Don’t click unknown links or share personal details.
+              </p>
             </div>
           </div>
         </div>
@@ -92,7 +136,10 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
           <div class="card tip-card h-100">
             <div class="card-body">
               <h5 class="card-title">🔐 Password Pizza Rule</h5>
-              <p class="card-text">A strong password = lots of toppings: symbols, numbers, uppercase & lowercase letters. Thin (short) = weak!</p>
+              <p class="card-text">
+                A strong password = lots of toppings: symbols, numbers, uppercase & lowercase letters. 
+                Thin (short) = weak! Make it long and loaded.
+              </p>
             </div>
           </div>
         </div>
@@ -101,7 +148,10 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
           <div class="card tip-card h-100">
             <div class="card-body">
               <h5 class="card-title">🧠 Think Before You Click</h5>
-              <p class="card-text">If a message feels urgent or emotional, pause. Hackers use emotions to trick you.</p>
+              <p class="card-text">
+                If a message feels urgent, emotional, or “too good to be true”, pause. 
+                Hackers use fear and excitement to trick you into clicking quickly.
+              </p>
             </div>
           </div>
         </div>
@@ -109,8 +159,11 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
         <div class="col">
           <div class="card tip-card h-100">
             <div class="card-body">
-              <h5 class="card-title">📱 Update Reminder</h5>
-              <p class="card-text">Outdated apps = unlocked doors. Updates fix holes before hackers find them!</p>
+              <h5 class="card-title">🛡️ Term of the Day: VPN</h5>
+              <p class="card-text">
+                A Virtual Private Network (VPN) encrypts your internet traffic. 
+                Use it on public Wi-Fi to keep your browsing and passwords private and secure.
+              </p>
             </div>
           </div>
         </div>
@@ -118,14 +171,16 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
     `,
     manual: `
       <h2>Citizen Manual</h2>
-      <p class="mb-3">Follow this simple flow to stay safe online:</p>
+      <p class="mb-3">
+        Follow this simple flow to stay safe online and know what to do if something goes wrong.
+      </p>
 
       <div class="container">
         <div class="card mb-3 p-3">
           <h5>1️⃣ Identify the Source</h5>
-          <p>Is the message from a trusted person or organization?</p>
-          <p><strong>If YES →</strong> Go to Step 2</p>
-          <p><strong>If NO →</strong> Treat it as suspicious.</p>
+          <p>Is the message, call, or link from a trusted person or official organisation?</p>
+          <p><strong>If YES →</strong> Go to Step 2.</p>
+          <p><strong>If NO / Not sure →</strong> Treat it as suspicious.</p>
         </div>
 
         <div class="text-center mb-2"><h2>⬇️</h2></div>
@@ -133,19 +188,22 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
         <div class="card mb-3 p-3">
           <h5>2️⃣ Check for Red Flags</h5>
           <ul>
-            <li>Spelling mistakes</li>
-            <li>Strange links</li>
-            <li>Too good to be true offers</li>
-            <li>Urgent messages</li>
+            <li>Spelling mistakes or strange language.</li>
+            <li>Unknown or shortened links.</li>
+            <li>Too good to be true offers (lottery, prizes, cashback, etc.).</li>
+            <li>Urgent messages: “last chance”, “your account will be blocked”.</li>
           </ul>
-          <p><strong>If ANY appear → STOP & delete.</strong></p>
+          <p><strong>If ANY appear → STOP, don’t click, don’t share details.</strong></p>
         </div>
 
         <div class="text-center mb-2"><h2>⬇️</h2></div>
 
         <div class="card mb-3 p-3">
-          <h5>3️⃣ Verify</h5>
-          <p>Contact the sender using an official number or website.</p>
+          <h5>3️⃣ Verify Through a Safe Channel</h5>
+          <p>
+            Contact the organisation or person using an official number, website, or in person. 
+            Never use the phone number or link given in the suspicious message.
+          </p>
         </div>
 
         <div class="text-center mb-2"><h2>⬇️</h2></div>
@@ -153,18 +211,26 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
         <div class="card mb-3 p-3">
           <h5>4️⃣ Take Action</h5>
           <ul>
-            <li>Report suspicious messages</li>
-            <li>Block unknown senders</li>
-            <li>Change compromised passwords</li>
-            <li>Enable 2FA</li>
+            <li>Report suspicious messages and accounts on apps or to authorities.</li>
+            <li>Block unknown or abusive senders.</li>
+            <li>Change compromised passwords immediately.</li>
+            <li>Enable 2FA on important accounts.</li>
           </ul>
         </div>
 
         <div class="text-center mb-2"><h2>⬇️</h2></div>
 
         <div class="card mb-3 p-3 bg-light">
-          <h5>🏁 Final Step: Stay Updated</h5>
-          <p>Awareness is your strongest defense. Check cyber alerts regularly!</p>
+          <h5>🏁 If You Become a Victim</h5>
+          <p>
+            Don’t panic. Take screenshots, keep evidence, and report:
+          </p>
+          <ul>
+            <li>📞 National Cybercrime Helpline (India): <strong>1930</strong></li>
+            <li>🌐 Online portal: <strong>cybercrime.gov.in</strong></li>
+            <li>👨‍🏫 Inform a parent, teacher, or trusted adult immediately.</li>
+          </ul>
+          <p>Awareness + quick reporting can save money, accounts, and reputations.</p>
         </div>
       </div>
     `,
@@ -174,7 +240,7 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
         <div id="quiz-box"></div>
       </div>
     `,
- videos: `
+    videos: `
   <h2>Cyber Awareness Videos</h2>
   <div class="video-grid">
     <div class="video-item">
@@ -197,7 +263,6 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
     </div>
   </div>
 `
-
   };
 
   // default content on load
@@ -382,15 +447,3 @@ Cyber awareness is not a one-time lesson; it is a daily habit. When we stay upda
     loadQuestion();
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
